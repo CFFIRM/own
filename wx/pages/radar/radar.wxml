@@ -1,0 +1,7 @@
+<view class="container">
+    <canvas canvas-id="radarCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+    <text>如上图所示,您是{{content.other_name}}性格</text>
+</view>
+<view class='but'>
+<text>{{content.content}}</text>
+</view>

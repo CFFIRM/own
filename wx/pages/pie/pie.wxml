@@ -1,0 +1,12 @@
+<view class="container">
+  <canvas canvas-id="pieCanvas" class="canvas" style="height:800rpx;margin-right:50rpx" bindtouchstart="touchHandler"></canvas>
+  
+</view>
+<view>
+  结果为您是
+  <text wx:for="{{colormax}}">{{item}} </text>
+  性格
+  </view>
+<view wx:for="{{colorinfo}}" class='but'>
+  <text>{{item.character}}</text>
+</view>

@@ -1,0 +1,35 @@
+/* pages/pie/pie.wxss */
+
+page {
+  width: 100%;
+}
+
+.canvas {
+  width: 100%;
+  height: 100px;
+}
+
+.container {
+  height: 750rpx;
+  background-color: rgba(73, 69, 69, 0.589);
+  width: 95%;
+  margin: 19rpx;
+}
+
+.container text {
+  font-size: 50rpx;
+}
+
+.but{
+  width: 100%;
+  padding-left: 10rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.but text {
+  font-size: 30rpx;
+  padding: 30rpx;
+  color: rgb(129, 123, 123);
+  text-indent: 20rpx;
+  text-align: left;
+}

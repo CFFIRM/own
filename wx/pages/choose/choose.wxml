@@ -1,0 +1,9 @@
+<!-- <view wx:for='{{type}}'>
+<button>{{item.type_name}}</button>
+</view> -->
+<view class='v01'>
+  <text>您的选择是</text>
+</view>
+<view class='v02' wx:for='{{type}}'>
+    <button class='btn' bindtap='choose' data-id='{{item.type_id}}'>{{item.type_name}}</button>
+  </view>

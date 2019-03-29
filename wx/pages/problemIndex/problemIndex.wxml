@@ -1,0 +1,14 @@
+<!--pages/problemIndex/problemIndex.wxml-->
+<view class='cont'>
+  <view class='title'>第{{info.id}}题</view>
+  <view class='pro'>{{info.topic}}</view>
+  <view class='list'>
+    <view class="{{selectId=='a'?'sitem':'item'}}" data-answer='a' bindtap='select'>A:{{info.answer1}}</view>
+    <view class="{{selectId=='b'?'sitem':'item'}}" data-answer='b' bindtap='select'>B：{{info.answer2}}</view>
+    <view class="{{selectId=='c'?'sitem':'item'}}" data-answer='c' bindtap='select'>C：{{info.answer3}}</view>
+    <view class="{{selectId=='d'?'sitem':'item'}}" data-answer='d' bindtap='select'>D：{{info.answer4}}</view>
+    <button class="{{info.id==next?'item2':'item1'}}" data-id='{{info.answer}}' bindtap='next' wx:if="{{item.id%30!=1}}" data-id='{{info.id}}'>下一题</button>
+      <button form-type="submit" class='item1' data-id='{{info.answer}}' data-id='{{info.id}}' bindtap='sub' wx:if="{{info.id==30}}">完成
+    </button>
+  </view>
+</view>

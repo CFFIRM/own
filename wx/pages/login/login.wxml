@@ -1,0 +1,10 @@
+<view class='UCenter-bg'>
+  <image src='/images/logo.png' class='png' mode='widthFix'></image>
+  <view class='text-xl'>情感调查
+    <text class='text-df'>v1.0</text>
+  </view>
+
+</view>
+<view class='padding-xl'>
+  <button class='cu-btn  bg-green shadow lg block' open-type="getUserInfo" bindgetuserinfo="getUserInfo" bindtap='gotoindex'>开始答题</button>
+</view>

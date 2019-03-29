@@ -1,0 +1,26 @@
+/* pages/choose/choose.wxss */
+.page{
+  /* background-image: url() 整个页面的背景图片*/
+}
+.v01{
+  font-size: 40rpx;
+  /* color: #ccc; 文字颜色*/
+}
+.v01 text{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 150rpx;
+}
+.v02{
+  margin-top: 200rpx;
+}
+.btn{
+  width: 50%;
+  height: 130rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150rpx;
+  line-height: 130rpx;
+  /* background-color: rgb(129, 194, 185); 按钮的颜色*/
+}
